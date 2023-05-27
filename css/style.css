@@ -1,0 +1,48 @@
+.header-content{
+    background:  #F0A83E;
+    height: 62px;
+    display: flex;
+    justify-content: space-evenly;
+
+    .p-header{
+        color:white;
+        font-size:13px;
+        font-family: 'Roboto';
+    }
+}
+.div-content-image{
+    background-image: url(../image/bowl-and-pet.png);
+    width: 100%;
+    height: 60%;
+    justify-content: end;
+    display: grid;
+
+    .p-title-image{
+        background: white;
+        color:black;
+        font-family: 'Roboto';
+        font-size: 30px;
+        margin-right: 30px;
+        margin-top: 140px;
+        height: 35px;
+    }
+
+    .p-image{
+        font-size:16px;
+        font-family: 'Roboto';
+        color:black;
+        margin:auto;
+
+    }
+
+    .button-image{
+        background-color: #F0A83E;
+        color:white;
+        font-family: 'Roboto';
+        font-size: 16px;
+        width: 141px;
+        height: 49px;
+        margin:auto;
+        ;
+    }
+}
